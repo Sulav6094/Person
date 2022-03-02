@@ -5,12 +5,14 @@ public class Person {
 		private int age;
 		private String name;
 		private String jobTitle;
+		private String pet;
 		public Person() {};
 		//All arguments constructor
-		public Person(String name,int age,String jobTitle) {
+		public Person(String name,int age,String jobTitle,String pet) {
 			this.age=age;
 			this.name=name;
 			this.jobTitle=jobTitle;
+			this.pet=pet;
 		}
 		
 		public int getAge() {
@@ -33,7 +35,7 @@ public class Person {
 		}
 		@Override
 		public String toString() {
-			return "Person [age=" + age + ", name=" + name + ", jobTitle=" + jobTitle + "]";
+			return "Person [age=" + age + ", name=" + name + ", jobTitle=" + jobTitle + ", pet=" + pet + "]";
 		}
 		
 	

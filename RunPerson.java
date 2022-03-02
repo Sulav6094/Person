@@ -1,9 +1,5 @@
 package streams;
 
-
-
-
-
 public class RunPerson {
 	public static void main(String[] args) {
 	Method method=new Method();
